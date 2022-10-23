@@ -1,8 +1,4 @@
-import { Router, useRoutes } from '@solidjs/router'
-import routes from '~/routes'
-
 export default () => {
-  const Routes = useRoutes(routes)
   return (
     <div
       min-h-100vh
@@ -10,9 +6,7 @@ export default () => {
       text-white
     >
       <main p-12>
-        <Router>
-          <Routes />
-        </Router>
+        Hi
       </main>
     </div>
   )
