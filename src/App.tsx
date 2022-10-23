@@ -35,6 +35,7 @@ function onMessage(evt: MessageEvent) {
 
 function onSendBtnClick() {
   ws()?.send(JSON.stringify({ sender: nickname(), body: text() }))
+  setText('')
 }
 
 createEffect(() => {
