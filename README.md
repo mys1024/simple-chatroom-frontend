@@ -1,19 +1,7 @@
-# Solidify
+# simple-chatroom-frontend
 
-A SolidJS stater template.
+This is the frontend project of
+[https://chatroom.1024.cab](https://chatroom.1024.cab).
 
-Demo: [https://solidify-one.vercel.app](https://solidify-one.vercel.app)
-
-## Feature
-
-- pnpm
-
-- Vite
-
-- TypeScript
-
-- UnoCSS
-
-- ESLint
-
-- Vitest
+Also see the backend project:
+[mys1024/simple-chatroom-backend](https://github.com/mys1024/simple-chatroom-backend).
