@@ -34,12 +34,7 @@ function onMessage(evt: MessageEvent) {
 }
 
 function onSendBtnClick() {
-  const socket = ws()
-  if (!socket)
-    return
-  const msg = { sender: nickname(), body: text() }
-  addMessage(msg)
-  socket.send(JSON.stringify(msg))
+  ws()?.send(JSON.stringify({ sender: nickname(), body: text() }))
 }
 
 createEffect(() => {
